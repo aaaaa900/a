@@ -1,0 +1,35 @@
+# Fichiers Terraform
+*.tfstate
+*.tfstate.*
+
+# Fichiers de sauvegarde générés par Terraform
+*.backup
+
+# Fichiers sensibles contenant des informations d'accès ou des configurations locales
+*.tfvars
+*.tfvars.json
+
+# Répertoire Terraform de cache et de données locales
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers de log
+crash.log
+*.log
+
+# Fichiers générés par des outils IDE ou systèmes d'exploitation
+*.swp
+*.bak
+*.tmp
+*.temp
+*.DS_Store
+.idea/
+.vscode/
+
+# Clés SSH ou autres fichiers secrets (ajustez selon vos besoins)
+*.pem
+*.key
+*.crt
+
+# Sorties éventuelles des scripts ou des commandes Terraform
+plan.out
