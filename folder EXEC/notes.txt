@@ -1,0 +1,9 @@
+Check case when assured_workfload folder already exist and we wants to add IAM on it => Not needed, we wont know existing config attributes of that folder so we won't be sure that we can update existing one.
+-> add to folders global var all inputs (optional if needed + description, type ...)
+-> remove unsed variables and make one variable file
+-> check for providers versions
+
+
+-----
+In sandbox repo
+-> setup CI for WIF test (check for existing WIF credential files) => Maybe not because of WIF SA that will have to many scopes
